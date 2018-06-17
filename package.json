@@ -1,0 +1,21 @@
+{
+  "name": "pencil-elementary-widgets",
+  "version": "0.1.0",
+  "description": "Stencils for creating elementaryOS UI mockups",
+  "scripts": {
+    "build": "psb build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkinitcpio/pencil-elementary-widgets.git"
+  },
+  "author": "https://github.com/mkinitcpio",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/mkinitcpio/pencil-elementary-widgets/issues"
+  },
+  "homepage": "https://github.com/mkinitcpio/pencil-elementary-widgets#readme",
+  "dependencies": {
+    "pencil-stencil-builder": "0.3.2"
+  }
+}

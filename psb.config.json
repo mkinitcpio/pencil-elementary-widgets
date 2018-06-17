@@ -1,0 +1,11 @@
+{
+    "rootDir": "./shapes",
+    "buildDir": "./build",
+    "stencilMetadata": {
+        "id": "ElementaryWidgets",
+        "displayName": "Elementary OS Widgets",
+        "description": "Stencils for creating elementary OS UI mockups",
+        "author":"https://github.com/mkinitcpio",
+        "url":"https://github.com/mkinitcpio/pencil-elementary-widgets"
+    }
+}
