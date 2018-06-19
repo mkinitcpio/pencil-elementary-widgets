@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "description": "Stencils for creating elementaryOS UI mockups",
   "scripts": {
-    "build": "psb build"
+    "build": "psb build",
+    "watch": "psb watch"
   },
   "repository": {
     "type": "git",
@@ -16,6 +17,6 @@
   },
   "homepage": "https://github.com/mkinitcpio/pencil-elementary-widgets#readme",
   "dependencies": {
-    "pencil-stencil-builder": "0.3.2"
+    "pencil-stencil-builder": "0.4.1"
   }
 }
