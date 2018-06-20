@@ -1,0 +1,34 @@
+<Shape id="label"
+       displayName="Label"
+       icon="">
+
+  <Properties>
+    <PropertyGroup name="Text">
+      <Property name="label"
+                displayName="Label"
+                type="PlainText">Label</Property>
+
+      <Property name="textColor"
+                displayName="Color"
+                type="Color">#909090ff</Property>
+
+      <Property name="textFont"
+                displayName="Font"
+                type="Font">Open Sans|normal|normal|14px</Property>
+
+    </PropertyGroup>
+  </Properties>
+
+  <Behaviors>
+    <For ref="text">
+      <TextContent>$label</TextContent>
+      <Fill>$textColor</Fill>
+      <Font>$textFont</Font>
+    </For>
+  </Behaviors>
+
+  <p:Content xmlns:p="http://www.evolus.vn/Namespace/Pencil"
+             xmlns="http://www.w3.org/2000/svg">
+    <text id="text" />
+  </p:Content>
+</Shape>
